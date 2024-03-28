@@ -1,0 +1,12 @@
+pip install -r requirements.txt
+
+conda create -n XY
+
+Installing collected packages: pytz, faiss-cpu, zipp, watchdog, validators, urllib3, tzdata, tornado, toolz, toml, 
+tenacity, smmap, six, semver, rpds-py, PyYAML, python-dotenv, PyPDF2, pympler, pygments, pydantic, protobuf, pillow, 
+packaging, numpy, mypy-extensions, multidict, more-itertools, mdurl, MarkupSafe, greenlet, frozenlist, click, 
+charset-normalizer, cachetools, blinker, attrs, yarl, tzlocal, typing-inspect, SQLAlchemy, requests, referencing,
+python-dateutil, pyarrow, openapi-schema-pydantic, numexpr, marshmallow, markdown-it-py, jinja2, importlib-metadata,
+htbuilder, gitdb, aiosignal, st-annotated-text, rich, pydeck, pandas, jsonschema-specifications, gitpython, 
+dataclasses-json, aiohttp, langchain, jsonschema, altair, streamlit, streamlit-keyup, streamlit-embedcode,
+streamlit-camera-input-live, streamlit-extras
