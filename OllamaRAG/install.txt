@@ -1,0 +1,1 @@
+pip install langchain langchain-community langchain-core streamlit chromadb tiktoken
