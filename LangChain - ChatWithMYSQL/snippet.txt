@@ -1,0 +1,9 @@
+
+conda create --name chat-with-mysql python=3.10
+conda activate chat-with-mysql
+
+pip install langchain
+
+pip freeze
+
+pip install mysql-connector-python 
