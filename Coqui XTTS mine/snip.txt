@@ -1,0 +1,8 @@
+python -m venv .venv
+.venv\Scripts\activate
+pip install setuptools wheel -U
+python.exe - m pip insall --upgrade pip
+pip list
+
+pip install tts
+tts --list_models
