@@ -1,0 +1,7 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install openai
+pip install deepgram-sdk
+pip install playsound
+
+export DG_API_KEY=1234
