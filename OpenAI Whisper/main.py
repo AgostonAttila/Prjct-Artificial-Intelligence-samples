@@ -5,6 +5,7 @@ from datasets import load_dataset, Audio
 import torch
 from IPython.display import Audio as display_Audio, display
 import torchaudio
+import ollama
 
 #English transcription full example from https://huggingface.co/openai/whisper-large-v3
 device = torch.device('cpu')
@@ -35,7 +36,7 @@ pipe = pipeline(
 dataset = load_dataset("distil-whisper/librispeech_long", "clean", split="validation")
 sample = dataset[0]["audio"]
 result = pipe(sample)
-print(result["text"])
+print(result["text"]) 
 
 
 #utility functions
@@ -58,4 +59,7 @@ run_inference(path_audio,output_lang, pipe)
 path_audio = "magyar.wav"
 output_lang = "hu"
 run_inference(path_audio,output_lang, pipe)
+
+
+
 
